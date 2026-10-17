@@ -1,0 +1,13 @@
+# Target labels
+ pioasmBuild
+# Source files and their labels
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/CMakeFiles/pioasmBuild-complete.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-build.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-configure.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-download.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-install.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-mkdir.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-patch.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pico-sdk/src/rp2_common/pico_status_led/pioasm/src/pioasmBuild-stamp/pioasmBuild-update.rule

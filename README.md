@@ -72,6 +72,7 @@ CMakeLists.txt             build recipe for the Pico SDK + PicoSystem library
 vendor/picosystem/         vendored copy of Pimoroni's PicoSystem v1 library
 host/                      desktop stand-in so the logic can be tested on a PC
 build.sh                   convenience build script
+build/                     generated CMake tree from this machine (snapshot)
 ```
 
 ## Building

@@ -1,0 +1,5 @@
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm-install/pioasm/pioasm
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm-install/pioasm/pioasmTargets.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm-install/pioasm/pioasmTargets-release.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm-install/pioasm/pioasmConfig.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm-install/pioasm/pioasmConfigVersion.cmake

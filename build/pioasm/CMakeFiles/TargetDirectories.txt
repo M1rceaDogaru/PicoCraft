@@ -1,0 +1,7 @@
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/pioasm.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/edit_cache.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/rebuild_cache.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/list_install_components.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/install.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/install/local.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/pioasm/CMakeFiles/install/strip.dir

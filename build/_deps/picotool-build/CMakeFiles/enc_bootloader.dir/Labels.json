@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/enc_bootloader"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/enc_bootloader.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/enc_bootloader-complete.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-build.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-configure.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-download.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-install.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-patch.rule"
+		},
+		{
+			"file" : "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/enc_bootloader/src/enc_bootloader-stamp/enc_bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"enc_bootloader"
+		],
+		"name" : "enc_bootloader"
+	}
+}

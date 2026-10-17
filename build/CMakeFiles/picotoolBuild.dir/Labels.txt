@@ -1,0 +1,14 @@
+# Target labels
+ picotoolBuild
+# Source files and their labels
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/CMakeFiles/picotoolBuild
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/CMakeFiles/picotoolBuild.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/CMakeFiles/picotoolBuild-complete.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-build.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-configure.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-download.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-install.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-mkdir.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-patch.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-test.rule
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/picotool/src/picotoolBuild-stamp/picotoolBuild-update.rule

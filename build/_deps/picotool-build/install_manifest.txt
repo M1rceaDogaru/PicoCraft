@@ -1,0 +1,6 @@
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool/picotool
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool/picotoolTargets.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool/picotoolTargets-release.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool/picotoolConfig.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool/picotoolConfigVersion.cmake
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool/enc_bootloader.elf

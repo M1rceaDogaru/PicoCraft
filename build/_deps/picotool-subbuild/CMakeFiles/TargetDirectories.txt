@@ -1,0 +1,3 @@
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-subbuild/CMakeFiles/picotool-populate.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-subbuild/CMakeFiles/edit_cache.dir
+/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-subbuild/CMakeFiles/rebuild_cache.dir
