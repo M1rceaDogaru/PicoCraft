@@ -3,8 +3,9 @@
 // True 3D: cubes projected through a real camera in fixed point, flat shaded per
 // face normal, blended into distance fog and drawn back to front so voxels always
 // overlap correctly. The world is generated on demand in chunks, so the island
-// goes on forever in every direction. Rendering is capped at 60fps: the engine
-// loop calls draw() once per ~16ms frame and we never skip any of them.
+// goes on forever in every direction. Rendering is capped at 30fps: input and
+// physics run every ~16ms engine frame while the 3D scene draws on alternate
+// frames, so each picture gets two frames' worth of time to render into.
 //
 // Controls
 //   dpad        walk forward/back and turn
@@ -1111,21 +1112,28 @@ void update(uint32_t tick) {
 }
 
 // -------------------------------------------------------------------- draw --
-constexpr uint8_t RENDER_SKIP = 1;   // draw every frame; the ~60Hz engine loop caps it
+constexpr uint8_t RENDER_SKIP = 2;   // draw on alternate frames -> ~30fps cap
 static uint8_t skip_count = 0;
 static uint32_t last_render_us = 0;
+static uint32_t fps_window_us = 0;   // accumulated time over the sample window
+static uint8_t fps_frames = 0;       // rendered frames in the current window
 
 void draw(uint32_t tick) {
   if(skip_count > 0) { skip_count--; return; }   // keep the previous picture
   skip_count = RENDER_SKIP - 1;
 
+  // measured over a whole window of rendered frames: a single poisoned sample
+  // (the very first frame, whose delta spans boot) used to pin the readout
   uint32_t now = time_us();
-  uint32_t delta = now - last_render_us;
-  last_render_us = now;
-  if(delta > 0) {
-    uint32_t inst = (uint32_t)(1000000u / delta);
-    render_fps = (render_fps * 7 + inst + 4) / 8;
+  if(last_render_us != 0) {
+    fps_window_us += (uint32_t)(now - last_render_us);
+    if(++fps_frames >= 16) {
+      render_fps = (uint32_t)(((uint64_t)fps_frames * 1000000ull) / fps_window_us);
+      fps_window_us = 0;
+      fps_frames = 0;
+    }
   }
+  last_render_us = now;
 
   update_sky();
 

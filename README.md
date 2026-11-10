@@ -55,9 +55,11 @@ damage and hearts.
 * **Chunked world** — terrain columns come from a pure noise function of world
   (x, z), so every chunk agrees with its neighbours at the seam; trees are written
   from a scan that reaches 3 blocks past the chunk border so canopies cross seams.
-* **Frame pacing** — input and physics run every frame with real dt from `time_us()`,
-  and the scene is drawn on every one of them; the ~60 Hz engine loop is the cap, so
-  rendering never exceeds 60 fps. The measured rate is shown bottom-right.
+* **Frame pacing** — input and physics run every ~60 Hz frame with real dt from
+  `time_us()`, while the scene draws on alternate frames: a steady ~30 fps render
+  where each picture gets two engine frames' worth of time. The measured rate is
+  shown bottom-right, averaged over a window of rendered frames so it stays put
+  instead of being pinned by one bad sample.
 
 Typical rendered frames gather ~2000–3000 cells and draw ~3000–4000 faces at
 120x120 (pixel doubled to the 240x240 screen). Flash usage is ~110 KB; RAM sits
