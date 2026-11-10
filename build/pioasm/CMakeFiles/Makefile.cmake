@@ -7,8 +7,8 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
   "/tmp/opencode/src/pico-sdk/pico_sdk_version.cmake"
   "/tmp/opencode/src/pico-sdk/tools/pioasm/CMakeLists.txt"
   "/tmp/opencode/src/pico-sdk/tools/pioasm/cmake/pioasmConfig.cmake"
@@ -112,10 +112,10 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
   "version.h"
   "pioasmConfigVersion.cmake"
   "pioasmConfig.cmake"

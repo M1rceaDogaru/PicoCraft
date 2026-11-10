@@ -30,6 +30,7 @@ static uint32_t input_for(int frame) {
     if(frame >= 4 && frame < 6) io |= (1u << (A - 16));       // leave title
     if(frame > 8) io |= (1u << (UP - 16));
     if(frame % 13 < 2) io |= (1u << (A - 16));                 // hop constantly
+    if(frame >= 1500 && frame < 1700) io |= (1u << (Y - 16));  // aim mid-stride
     if(frame % 500 >= 470 && frame % 500 < 490) io |= (1u << (RIGHT - 16));
     return io;
   }

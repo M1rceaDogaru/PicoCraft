@@ -7,10 +7,10 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/4.4.3/CMakeASMCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeASMCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
   "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-src/enc_bootloader/CMakeLists.txt"
   "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-src/enc_bootloader/enc_bootloader.elf"
   "/usr/share/cmake/Modules/CMakeASMCompiler.cmake.in"
@@ -142,15 +142,15 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
-  "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeASMCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.4.3/CMakeASMCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeCCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeASMCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.4.4/CMakeASMCompiler.cmake"
   "enc_bootloader.elf"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )

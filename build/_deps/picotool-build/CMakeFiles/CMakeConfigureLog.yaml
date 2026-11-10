@@ -20,15 +20,15 @@ events:
     names:
       - "uname"
     candidate_directories:
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -41,20 +41,20 @@ events:
       - "/usr/bin/core_perl/"
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/uname"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/uname"
       - "/home/slingie/.local/share/fnm/uname"
       - "/home/slingie/.cargo/bin/uname"
       - "/home/slingie/.opencode/bin/uname"
       - "/home/slingie/.local/bin/uname"
       - "/opt/rocm/bin/uname"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/uname"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/uname"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/uname"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/uname"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/uname"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/uname"
       - "/usr/local/bin/uname"
     found: "/usr/bin/uname"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -64,15 +64,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -80,7 +76,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -138,7 +138,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:218 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Linux - 7.2.2-1-cachyos - x86_64
+      The system is: Linux - 7.3.0-5-cachyos - x86_64
   -
     kind: "find-v1"
     backtrace:
@@ -165,15 +165,15 @@ events:
       - "icx"
       - "clang"
     candidate_directories:
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -186,20 +186,20 @@ events:
       - "/usr/bin/core_perl/"
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/cc"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/cc"
       - "/home/slingie/.local/share/fnm/cc"
       - "/home/slingie/.cargo/bin/cc"
       - "/home/slingie/.opencode/bin/cc"
       - "/home/slingie/.local/bin/cc"
       - "/opt/rocm/bin/cc"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/cc"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/cc"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/cc"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/cc"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/cc"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/cc"
       - "/usr/local/bin/cc"
     found: "/usr/bin/cc"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -209,15 +209,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -225,7 +221,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -304,7 +304,7 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCCompilerId.c.in"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -314,15 +314,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -330,7 +326,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -402,7 +402,7 @@ events:
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
       
       The C compiler identification is GNU, found in:
-        /run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/4.4.3/CompilerIdC/a.out
+        /run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/4.4.4/CompilerIdC/a.out
       
   -
     kind: "find-v1"
@@ -425,15 +425,15 @@ events:
       - "ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -447,7 +447,7 @@ events:
     found: "/usr/bin/ar"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -457,15 +457,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -473,7 +469,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -546,15 +546,15 @@ events:
       - "ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -568,7 +568,7 @@ events:
     found: "/usr/bin/ranlib"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -578,15 +578,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -594,7 +590,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -667,15 +667,15 @@ events:
       - "strip"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -689,7 +689,7 @@ events:
     found: "/usr/bin/strip"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -699,15 +699,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -715,7 +711,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -788,15 +788,15 @@ events:
       - "ld"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -810,7 +810,7 @@ events:
     found: "/usr/bin/ld"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -820,15 +820,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -836,7 +832,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -909,15 +909,15 @@ events:
       - "nm"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -931,7 +931,7 @@ events:
     found: "/usr/bin/nm"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -941,15 +941,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -957,7 +953,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1030,15 +1030,15 @@ events:
       - "objdump"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1052,7 +1052,7 @@ events:
     found: "/usr/bin/objdump"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1062,15 +1062,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1078,7 +1074,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1151,15 +1151,15 @@ events:
       - "objcopy"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1173,7 +1173,7 @@ events:
     found: "/usr/bin/objcopy"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1183,15 +1183,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1199,7 +1195,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1272,15 +1272,15 @@ events:
       - "readelf"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1294,7 +1294,7 @@ events:
     found: "/usr/bin/readelf"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1304,15 +1304,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1320,7 +1316,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1393,15 +1393,15 @@ events:
       - "dlltool"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1414,15 +1414,15 @@ events:
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
       - "/usr/bin/dlltool"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/dlltool"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/dlltool"
       - "/home/slingie/.local/share/fnm/dlltool"
       - "/home/slingie/.cargo/bin/dlltool"
       - "/home/slingie/.opencode/bin/dlltool"
       - "/home/slingie/.local/bin/dlltool"
       - "/opt/rocm/bin/dlltool"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/dlltool"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/dlltool"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/dlltool"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/dlltool"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/dlltool"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/dlltool"
       - "/usr/local/bin/dlltool"
       - "/bin/dlltool"
       - "/usr/local/sbin/dlltool"
@@ -1436,7 +1436,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1446,15 +1446,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1462,7 +1458,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1535,15 +1535,15 @@ events:
       - "addr2line"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1557,7 +1557,7 @@ events:
     found: "/usr/bin/addr2line"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1567,15 +1567,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1583,7 +1579,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1656,15 +1656,15 @@ events:
       - "tapi"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1677,15 +1677,15 @@ events:
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
       - "/usr/bin/tapi"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/tapi"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/tapi"
       - "/home/slingie/.local/share/fnm/tapi"
       - "/home/slingie/.cargo/bin/tapi"
       - "/home/slingie/.opencode/bin/tapi"
       - "/home/slingie/.local/bin/tapi"
       - "/opt/rocm/bin/tapi"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/tapi"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/tapi"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/tapi"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/tapi"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/tapi"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/tapi"
       - "/usr/local/bin/tapi"
       - "/bin/tapi"
       - "/usr/local/sbin/tapi"
@@ -1699,7 +1699,7 @@ events:
     found: false
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1709,15 +1709,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1725,7 +1721,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1801,15 +1801,15 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -1822,15 +1822,15 @@ events:
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ar-16.2"
       - "/home/slingie/.local/share/fnm/gcc-ar-16.2"
       - "/home/slingie/.cargo/bin/gcc-ar-16.2"
       - "/home/slingie/.opencode/bin/gcc-ar-16.2"
       - "/home/slingie/.local/bin/gcc-ar-16.2"
       - "/opt/rocm/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ar-16.2"
       - "/usr/local/bin/gcc-ar-16.2"
       - "/bin/gcc-ar-16.2"
       - "/usr/local/sbin/gcc-ar-16.2"
@@ -1842,15 +1842,15 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16.2"
       - "/home/slingie/.lmstudio/bin/gcc-ar-16.2"
       - "/usr/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ar-16"
       - "/home/slingie/.local/share/fnm/gcc-ar-16"
       - "/home/slingie/.cargo/bin/gcc-ar-16"
       - "/home/slingie/.opencode/bin/gcc-ar-16"
       - "/home/slingie/.local/bin/gcc-ar-16"
       - "/opt/rocm/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
@@ -1862,15 +1862,15 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/home/slingie/.lmstudio/bin/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ar16"
       - "/home/slingie/.local/share/fnm/gcc-ar16"
       - "/home/slingie/.cargo/bin/gcc-ar16"
       - "/home/slingie/.opencode/bin/gcc-ar16"
       - "/home/slingie/.local/bin/gcc-ar16"
       - "/opt/rocm/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
@@ -1884,7 +1884,7 @@ events:
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -1894,15 +1894,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1910,7 +1906,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -1986,15 +1986,15 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -2007,15 +2007,15 @@ events:
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ranlib-16.2"
       - "/home/slingie/.local/share/fnm/gcc-ranlib-16.2"
       - "/home/slingie/.cargo/bin/gcc-ranlib-16.2"
       - "/home/slingie/.opencode/bin/gcc-ranlib-16.2"
       - "/home/slingie/.local/bin/gcc-ranlib-16.2"
       - "/opt/rocm/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ranlib-16.2"
       - "/usr/local/bin/gcc-ranlib-16.2"
       - "/bin/gcc-ranlib-16.2"
       - "/usr/local/sbin/gcc-ranlib-16.2"
@@ -2027,15 +2027,15 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16.2"
       - "/home/slingie/.lmstudio/bin/gcc-ranlib-16.2"
       - "/usr/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ranlib-16"
       - "/home/slingie/.local/share/fnm/gcc-ranlib-16"
       - "/home/slingie/.cargo/bin/gcc-ranlib-16"
       - "/home/slingie/.opencode/bin/gcc-ranlib-16"
       - "/home/slingie/.local/bin/gcc-ranlib-16"
       - "/opt/rocm/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
@@ -2047,15 +2047,15 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/home/slingie/.lmstudio/bin/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ranlib16"
       - "/home/slingie/.local/share/fnm/gcc-ranlib16"
       - "/home/slingie/.cargo/bin/gcc-ranlib16"
       - "/home/slingie/.opencode/bin/gcc-ranlib16"
       - "/home/slingie/.local/bin/gcc-ranlib16"
       - "/opt/rocm/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
@@ -2069,7 +2069,7 @@ events:
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -2079,15 +2079,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2095,7 +2091,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2180,7 +2180,7 @@ events:
     found: "/usr/bin/c++"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -2190,15 +2190,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2206,7 +2202,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2285,7 +2285,7 @@ events:
     found: "/usr/share/cmake/Modules/CMakeCXXCompilerId.cpp.in"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -2295,15 +2295,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2311,7 +2307,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2383,7 +2383,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
       
       The CXX compiler identification is GNU, found in:
-        /run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/4.4.3/CompilerIdCXX/a.out
+        /run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/4.4.4/CompilerIdCXX/a.out
       
   -
     kind: "find-v1"
@@ -2409,15 +2409,15 @@ events:
       - "gcc-ar"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -2430,15 +2430,15 @@ events:
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
       - "/usr/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ar-16.2"
       - "/home/slingie/.local/share/fnm/gcc-ar-16.2"
       - "/home/slingie/.cargo/bin/gcc-ar-16.2"
       - "/home/slingie/.opencode/bin/gcc-ar-16.2"
       - "/home/slingie/.local/bin/gcc-ar-16.2"
       - "/opt/rocm/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ar-16.2"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ar-16.2"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ar-16.2"
       - "/usr/local/bin/gcc-ar-16.2"
       - "/bin/gcc-ar-16.2"
       - "/usr/local/sbin/gcc-ar-16.2"
@@ -2450,15 +2450,15 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16.2"
       - "/home/slingie/.lmstudio/bin/gcc-ar-16.2"
       - "/usr/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ar-16"
       - "/home/slingie/.local/share/fnm/gcc-ar-16"
       - "/home/slingie/.cargo/bin/gcc-ar-16"
       - "/home/slingie/.opencode/bin/gcc-ar-16"
       - "/home/slingie/.local/bin/gcc-ar-16"
       - "/opt/rocm/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ar-16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ar-16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ar-16"
       - "/usr/local/bin/gcc-ar-16"
       - "/bin/gcc-ar-16"
       - "/usr/local/sbin/gcc-ar-16"
@@ -2470,15 +2470,15 @@ events:
       - "/usr/bin/core_perl/gcc-ar-16"
       - "/home/slingie/.lmstudio/bin/gcc-ar-16"
       - "/usr/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ar16"
       - "/home/slingie/.local/share/fnm/gcc-ar16"
       - "/home/slingie/.cargo/bin/gcc-ar16"
       - "/home/slingie/.opencode/bin/gcc-ar16"
       - "/home/slingie/.local/bin/gcc-ar16"
       - "/opt/rocm/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ar16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ar16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ar16"
       - "/usr/local/bin/gcc-ar16"
       - "/bin/gcc-ar16"
       - "/usr/local/sbin/gcc-ar16"
@@ -2492,7 +2492,7 @@ events:
     found: "/usr/bin/gcc-ar"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -2502,15 +2502,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2518,7 +2514,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2594,15 +2594,15 @@ events:
       - "gcc-ranlib"
     candidate_directories:
       - "/usr/bin/"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/bin/"
       - "/usr/local/sbin/"
@@ -2615,15 +2615,15 @@ events:
       - "/home/slingie/.lmstudio/bin/"
     searched_directories:
       - "/usr/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ranlib-16.2"
       - "/home/slingie/.local/share/fnm/gcc-ranlib-16.2"
       - "/home/slingie/.cargo/bin/gcc-ranlib-16.2"
       - "/home/slingie/.opencode/bin/gcc-ranlib-16.2"
       - "/home/slingie/.local/bin/gcc-ranlib-16.2"
       - "/opt/rocm/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ranlib-16.2"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ranlib-16.2"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ranlib-16.2"
       - "/usr/local/bin/gcc-ranlib-16.2"
       - "/bin/gcc-ranlib-16.2"
       - "/usr/local/sbin/gcc-ranlib-16.2"
@@ -2635,15 +2635,15 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16.2"
       - "/home/slingie/.lmstudio/bin/gcc-ranlib-16.2"
       - "/usr/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ranlib-16"
       - "/home/slingie/.local/share/fnm/gcc-ranlib-16"
       - "/home/slingie/.cargo/bin/gcc-ranlib-16"
       - "/home/slingie/.opencode/bin/gcc-ranlib-16"
       - "/home/slingie/.local/bin/gcc-ranlib-16"
       - "/opt/rocm/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ranlib-16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ranlib-16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ranlib-16"
       - "/usr/local/bin/gcc-ranlib-16"
       - "/bin/gcc-ranlib-16"
       - "/usr/local/sbin/gcc-ranlib-16"
@@ -2655,15 +2655,15 @@ events:
       - "/usr/bin/core_perl/gcc-ranlib-16"
       - "/home/slingie/.lmstudio/bin/gcc-ranlib-16"
       - "/usr/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/gcc-ranlib16"
       - "/home/slingie/.local/share/fnm/gcc-ranlib16"
       - "/home/slingie/.cargo/bin/gcc-ranlib16"
       - "/home/slingie/.opencode/bin/gcc-ranlib16"
       - "/home/slingie/.local/bin/gcc-ranlib16"
       - "/opt/rocm/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/gcc-ranlib16"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/gcc-ranlib16"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/gcc-ranlib16"
       - "/usr/local/bin/gcc-ranlib16"
       - "/bin/gcc-ranlib16"
       - "/usr/local/sbin/gcc-ranlib16"
@@ -2677,7 +2677,7 @@ events:
     found: "/usr/bin/gcc-ranlib"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -2687,15 +2687,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2703,7 +2699,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -2764,8 +2764,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0"
-      binary: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0"
+      source: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr"
+      binary: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: ""
@@ -2775,14 +2775,14 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0'
+        Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5162/fast
-        make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0'
-        /usr/bin/make  -f CMakeFiles/cmTC_a5162.dir/build.make CMakeFiles/cmTC_a5162.dir/build
-        make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0'
-        Building C object CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o
-        /usr/bin/cc   -v -o CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_605dc/fast
+        make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr'
+        /usr/bin/make  -f CMakeFiles/cmTC_605dc.dir/build.make CMakeFiles/cmTC_605dc.dir/build
+        make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr'
+        Building C object CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o
+        /usr/bin/cc   -v -o CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         Target: x86_64-pc-linux-gnu
@@ -2790,8 +2790,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5162.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a5162.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccp4DH98.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_605dc.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_605dc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwPtJpA.s
         GNU C23 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -2804,15 +2804,15 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        Compiler executable checksum: 6ce672faf4f8f65c167171dac0b14927
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5162.dir/'
-         as -v --64 -o CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o /tmp/ccp4DH98.s
+        Compiler executable checksum: 83ba8f718e256a4b370811b3629afa5a
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_605dc.dir/'
+         as -v --64 -o CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o /tmp/ccwPtJpA.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.'
-        Linking C executable cmTC_a5162
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5162.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_605dc
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_605dc.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/cc
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -2823,15 +2823,15 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5162' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5162.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPil1x5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5162 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_605dc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_605dc.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbKEpPt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_605dc /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPil1x5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5162 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbKEpPt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_605dc /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5162' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5162.'
-        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -o cmTC_a5162
-        make[4]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0'
-        make[3]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_605dc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_605dc.'
+        /usr/bin/cc  -v -Wl,-v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -o cmTC_605dc
+        make[4]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr'
+        make[3]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr'
         
       exitCode: 0
   -
@@ -2864,14 +2864,14 @@ events:
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0']
+        ignore line: [Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_a5162/fast]
-        ignore line: [make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0']
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_a5162.dir/build.make CMakeFiles/cmTC_a5162.dir/build]
-        ignore line: [make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-6EKTz0']
-        ignore line: [Building C object CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_605dc/fast]
+        ignore line: [make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_605dc.dir/build.make CMakeFiles/cmTC_605dc.dir/build]
+        ignore line: [make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-OGTIlr']
+        ignore line: [Building C object CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -2879,8 +2879,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5162.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_a5162.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccp4DH98.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_605dc.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1 -quiet -v /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_605dc.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -o /tmp/ccwPtJpA.s]
         ignore line: [GNU C23 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -2893,15 +2893,15 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 6ce672faf4f8f65c167171dac0b14927]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5162.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o /tmp/ccp4DH98.s]
+        ignore line: [Compiler executable checksum: 83ba8f718e256a4b370811b3629afa5a]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_605dc.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o /tmp/ccwPtJpA.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.']
-        ignore line: [Linking C executable cmTC_a5162]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5162.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_605dc]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_605dc.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -2912,13 +2912,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_a5162' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_a5162.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPil1x5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5162 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_605dc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_605dc.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbKEpPt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_605dc /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccPil1x5.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccbKEpPt.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s_asneeded] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -2934,7 +2934,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_a5162] ==> ignore
+          arg [cmTC_605dc] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -2946,7 +2946,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [-lgcc_s_asneeded] ==> lib [gcc_s_asneeded]
           arg [-latomic_asneeded] ==> lib [atomic_asneeded]
@@ -2956,9 +2956,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPil1x5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5162 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPil1x5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5162 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccPil1x5.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_a5162 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_a5162.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbKEpPt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_605dc /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbKEpPt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_605dc /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccbKEpPt.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s_asneeded --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_605dc /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_605dc.dir/CMakeCCompilerABI.c.o -lgcc -lgcc_s_asneeded -latomic_asneeded -lc -lgcc -lgcc_s_asneeded /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'C': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -2995,8 +2995,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw"
-      binary: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw"
+      source: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J"
+      binary: "/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -3007,14 +3007,14 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: false
       stdout: |
-        Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw'
+        Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J'
         
-        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f73d/fast
-        make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw'
-        /usr/bin/make  -f CMakeFiles/cmTC_6f73d.dir/build.make CMakeFiles/cmTC_6f73d.dir/build
-        make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw'
-        Building CXX object CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o
-        /usr/bin/c++   -v -o CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7800/fast
+        make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J'
+        /usr/bin/make  -f CMakeFiles/cmTC_d7800.dir/build.make CMakeFiles/cmTC_d7800.dir/build
+        make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J'
+        Building CXX object CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o
+        /usr/bin/c++   -v -o CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         Target: x86_64-pc-linux-gnu
@@ -3022,8 +3022,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib zstd
         gcc version 16.2.1 20260810 (GCC) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f73d.dir/'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6f73d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccUdOfSW.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7800.dir/'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7800.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccN59hw5.s
         GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)
         	compiled by GNU C version 16.2.1 20260810, GMP version 6.3.0, MPFR version 4.2.2, MPC version 1.4.1, isl version isl-0.28-GMP
         
@@ -3039,15 +3039,15 @@ events:
          /usr/local/include
          /usr/include
         End of search list.
-        Compiler executable checksum: 037f72dbb7daf695ab4f9c9043c92e73
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f73d.dir/'
-         as -v --64 -o CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccUdOfSW.s
+        Compiler executable checksum: b5aaedc68bab549499d982ae4bdebde2
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7800.dir/'
+         as -v --64 -o CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccN59hw5.s
         GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_6f73d
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f73d.dir/link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_d7800
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7800.dir/link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=/usr/bin/c++
         COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper
@@ -3058,15 +3058,15 @@ events:
         gcc version 16.2.1 20260810 (GCC) 
         COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6f73d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6f73d.'
-         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHqRQmE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6f73d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7800' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7800.'
+         /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmjV1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7800 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         collect2 version 16.2.1 20260810
-        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHqRQmE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6f73d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
+        /usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmjV1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7800 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o
         GNU ld (GNU Binutils) 2.47
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6f73d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6f73d.'
-        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_6f73d
-        make[4]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw'
-        make[3]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7800' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7800.'
+        /usr/bin/c++  -v -Wl,-v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d7800
+        make[4]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J'
+        make[3]: Leaving directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J'
         
       exitCode: 0
   -
@@ -3105,14 +3105,14 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|wild))("|,| |$)]
-        ignore line: [Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw']
+        ignore line: [Change Dir: '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J']
         ignore line: []
-        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_6f73d/fast]
-        ignore line: [make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw']
-        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_6f73d.dir/build.make CMakeFiles/cmTC_6f73d.dir/build]
-        ignore line: [make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-YDIYYw']
-        ignore line: [Building CXX object CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s): /usr/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_d7800/fast]
+        ignore line: [make[3]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J']
+        ignore line: [/usr/bin/make  -f CMakeFiles/cmTC_d7800.dir/build.make CMakeFiles/cmTC_d7800.dir/build]
+        ignore line: [make[4]: Entering directory '/run/media/slingie/D8C68D9DC68D7C8E/PICOCRAFT/build/_deps/picotool-build/CMakeFiles/CMakeScratch/TryCompile-sXT95J']
+        ignore line: [Building CXX object CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/usr/bin/c++   -v -o CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [Target: x86_64-pc-linux-gnu]
@@ -3120,8 +3120,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib zstd]
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f73d.dir/']
-        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_6f73d.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccUdOfSW.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7800.dir/']
+        ignore line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/cc1plus -quiet -v -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d7800.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -o /tmp/ccN59hw5.s]
         ignore line: [GNU C++20 (GCC) version 16.2.1 20260810 (x86_64-pc-linux-gnu)]
         ignore line: [	compiled by GNU C version 16.2.1 20260810  GMP version 6.3.0  MPFR version 4.2.2  MPC version 1.4.1  isl version isl-0.28-GMP]
         ignore line: []
@@ -3137,15 +3137,15 @@ events:
         ignore line: [ /usr/local/include]
         ignore line: [ /usr/include]
         ignore line: [End of search list.]
-        ignore line: [Compiler executable checksum: 037f72dbb7daf695ab4f9c9043c92e73]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f73d.dir/']
-        ignore line: [ as -v --64 -o CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccUdOfSW.s]
+        ignore line: [Compiler executable checksum: b5aaedc68bab549499d982ae4bdebde2]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7800.dir/']
+        ignore line: [ as -v --64 -o CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccN59hw5.s]
         ignore line: [GNU assembler version 2.47 (x86_64-pc-linux-gnu) using BFD version (GNU Binutils) 2.47]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_6f73d]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6f73d.dir/link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_d7800]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d7800.dir/link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/usr/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper]
@@ -3156,13 +3156,13 @@ events:
         ignore line: [gcc version 16.2.1 20260810 (GCC) ]
         ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-pc-linux-gnu/16/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6f73d' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6f73d.']
-        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHqRQmE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6f73d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_d7800' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_d7800.']
+        link line: [ /usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2 -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmjV1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7800 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccHqRQmE.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cccmjV1u.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-latomic_asneeded] ==> ignore
@@ -3178,7 +3178,7 @@ events:
           arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
           arg [-pie] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_6f73d] ==> ignore
+          arg [cmTC_d7800] ==> ignore
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o]
@@ -3190,7 +3190,7 @@ events:
           arg [-L/lib] ==> dir [/lib]
           arg [-L/usr/lib] ==> dir [/usr/lib]
           arg [-v] ==> ignore
-          arg [CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -3202,9 +3202,9 @@ events:
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o]
           arg [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         ignore line: [collect2 version 16.2.1 20260810]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHqRQmE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6f73d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
-        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHqRQmE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6f73d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
-        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/ccHqRQmE.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_6f73d /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_6f73d.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmjV1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7800 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker [/usr/bin/ld]
+        link line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmjV1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7800 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o] ==> linker architecture flags [-m;elf]
+        ignore line: [/usr/bin/ld -plugin /usr/lib/gcc/x86_64-pc-linux-gnu/16/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-pc-linux-gnu/16/lto-wrapper -plugin-opt=-fresolution=/tmp/cccmjV1u.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-latomic_asneeded -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --eh-frame-hdr --hash-style=gnu -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d7800 /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtbeginS.o -L/usr/lib/gcc/x86_64-pc-linux-gnu/16 -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../.. -L/lib -L/usr/lib -v CMakeFiles/cmTC_d7800.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -latomic_asneeded -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-pc-linux-gnu/16/crtendS.o /usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crtn.o]
         linker tool for 'CXX': /usr/bin/ld -m;elf
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/Scrt1.o] ==> [/usr/lib/Scrt1.o]
         collapse obj [/usr/lib/gcc/x86_64-pc-linux-gnu/16/../../../../lib/crti.o] ==> [/usr/lib/crti.o]
@@ -3251,15 +3251,15 @@ events:
     names:
       - "git"
     candidate_directories:
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/"
       - "/home/slingie/.local/share/fnm/"
       - "/home/slingie/.cargo/bin/"
       - "/home/slingie/.opencode/bin/"
       - "/home/slingie/.local/bin/"
       - "/opt/rocm/bin/"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/"
       - "/usr/local/bin/"
       - "/usr/bin/"
       - "/bin/"
@@ -3292,20 +3292,20 @@ events:
       - "/opt/sbin/"
       - "/opt/"
     searched_directories:
-      - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin/git"
+      - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin/git"
       - "/home/slingie/.local/share/fnm/git"
       - "/home/slingie/.cargo/bin/git"
       - "/home/slingie/.opencode/bin/git"
       - "/home/slingie/.local/bin/git"
       - "/opt/rocm/bin/git"
-      - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin/git"
-      - "/run/user/1000/fnm_multishells/2282_1790633755836/bin/git"
-      - "/run/user/1000/fnm_multishells/2281_1790633755820/bin/git"
+      - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin/git"
+      - "/run/user/1000/fnm_multishells/2019_1793623116419/bin/git"
+      - "/run/user/1000/fnm_multishells/2018_1793623116403/bin/git"
       - "/usr/local/bin/git"
     found: "/usr/bin/git"
     search_context:
       ENV{PATH}:
-        - "/run/user/1000/fnm_multishells/2712550_1792176887366/bin"
+        - "/run/user/1000/fnm_multishells/1131308_1794335652769/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.cargo/bin"
         - "/home/slingie/.local/share/fnm"
@@ -3315,15 +3315,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/opt/rocm/bin"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2712544_1792176887343/bin"
+        - "/run/user/1000/fnm_multishells/1131304_1794335652753/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2282_1790633755836/bin"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
-        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2019_1793623116419/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
@@ -3331,7 +3327,11 @@ events:
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
-        - "/run/user/1000/fnm_multishells/2281_1790633755820/bin"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/home/slingie/.local/share/fnm"
+        - "/run/user/1000/fnm_multishells/2018_1793623116403/bin"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"
         - "/home/slingie/.local/share/fnm"

@@ -7,7 +7,7 @@ set(CMAKE_DEPENDS_GENERATOR "Unix Makefiles")
 # The top level Makefile was generated from the following files:
 set(CMAKE_MAKEFILE_DEPENDS
   "CMakeCache.txt"
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
   "CMakeLists.txt"
   "picotool-populate-prefix/tmp/picotool-populate-mkdirs.cmake"
   "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake"
@@ -38,7 +38,7 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.4.3/CMakeSystem.cmake"
+  "CMakeFiles/4.4.4/CMakeSystem.cmake"
   "picotool-populate-prefix/tmp/picotool-populate-mkdirs.cmake"
   "picotool-populate-prefix/tmp/picotool-populate-gitclone.cmake"
   "picotool-populate-prefix/src/picotool-populate-stamp/picotool-populate-gitinfo.txt"

@@ -271,6 +271,7 @@ uint32_t dbg_faces = 0;   // faces drawn last frame
 uint32_t dbg_cells = 0;   // visible cells gathered last frame
 float dbg_dt = 0;         // seconds per frame seen by update()
 uint32_t dbg_colbad = 0;  // live column/heightmap disagreements
+uint32_t dbg_tp = 0;      // frames that moved the player further than allowed
 #endif
 
 static inline color_t shade(uint8_t m, bool top, uint8_t lv) {
@@ -610,20 +611,36 @@ static void move_axis(int axis, float delta) {
   int iz0 = ifloor(z0), iz1 = ifloor(z1 - 0.001f);
 
   bool blocked = false;
+  bool stopped = false;   // a face in front of us actually stops this move
   for(int yy = iy0; yy <= iy1; yy++) {
     for(int zz = iz0; zz <= iz1; zz++) {
       for(int xx = ix0; xx <= ix1; xx++) {
         if(!solid_cell(xx, yy, zz)) continue;
         blocked = true;
+
         float cand;
         if(axis == 0)      cand = delta > 0 ? (float)xx - PR : (float)(xx + 1) + PR;
         else if(axis == 1) cand = delta > 0 ? (float)yy - PH : (float)(yy + 1);
         else               cand = delta > 0 ? (float)zz - PR : (float)(zz + 1) + PR;
 
-        if(delta > 0) lim = imin((int)(lim * 1000), (int)(cand * 1000)) / 1000.f;
-        else          lim = imax((int)(lim * 1000), (int)(cand * 1000)) / 1000.f;
+        // Only faces ahead of the player may stop it. A face behind us (which
+        // happens when we clip a corner) must never shove the player, or we
+        // would jump several blocks in one frame.
+        bool ahead = delta > 0 ? cand > cur : cand < cur;
+        if(!ahead) continue;
+
+        stopped = true;
+        if(delta > 0) { if(cand < lim) lim = cand; }
+        else          { if(cand > lim) lim = cand; }
       }
     }
+  }
+  // never slide past where we started, and refuse to move while embedded
+  if(stopped) {
+    if(delta > 0 && lim < cur) lim = cur;
+    if(delta < 0 && lim > cur) lim = cur;
+  } else if(blocked) {
+    lim = cur;
   }
 
   if(axis == 0) { px = lim; if(blocked) velx = 0; }
@@ -961,6 +978,10 @@ void update(uint32_t tick) {
   float aim_turn = (float)ANG_FULL * 0.20f;    // ~72 deg/s when aiming
   float aim_pitch = (float)ANG_FULL * 0.13f;   // ~47 deg/s up/down
   if(aiming) {
+    // standing still while aiming: without this the last walking frame's
+    // momentum keeps sliding the player around
+    velx = 0.f;
+    velz = 0.f;
     if(button(RIGHT)) yaw += (int32_t)(aim_turn * dt);
     if(button(LEFT))  yaw -= (int32_t)(aim_turn * dt);
     if(button(UP))    pitch += (int32_t)(aim_pitch * dt);   // up means look up
@@ -1060,6 +1081,32 @@ void update(uint32_t tick) {
       }
     }
   }
+
+  // teleport detector: a frame should never move the player further than its
+  // own velocity allows; wall clipping used to shove it several blocks
+  static float prev_px = 0, prev_py = 0, prev_pz = 0;
+  static bool tp_started = false;
+  if(!tp_started && state == PLAYING) {
+    tp_started = true;   // first playing frame just seeds the reference point
+    prev_px = px; prev_py = py; prev_pz = pz;
+  } else {
+    float mx = px - prev_px, my = py - prev_py, mz = pz - prev_pz;
+    prev_px = px; prev_py = py; prev_pz = pz;
+    if(state == PLAYING) {
+    float moved = absf(mx) + absf(my) + absf(mz);
+    float budget = (absf(velx) + absf(velz) + absf(vely)) * dt + 0.35f;
+    if(moved > budget && moved > 1.f) {
+      dbg_tp++;
+      static bool once_tp = false;
+      if(!once_tp) {
+        once_tp = true;
+        printf("first teleport: prev %.2f %.2f %.2f -> now %.2f %.2f %.2f (moved %.2f)\n",
+               prev_px - mx, prev_py - my, prev_pz - mz, px, py, pz, moved);
+        fflush(stdout);
+      }
+    }
+    }
+  }
 #endif
 }
 
@@ -1140,14 +1187,14 @@ void host_check() {
 void host_report(int frame) {
   printf("frame %d: pos %.2f %.2f %.2f grounded=%d health=%u score=%u gold=%u "
          "inv[DIRT]=%d inv[GRASS]=%d yaw=%d pitch=%d state=%d faces=%u cells=%u fps=%u "
-         "| th=%d below(y-1)=%d at=%d colbad=%u\n",
+         "| th=%d below(y-1)=%d at=%d colbad=%u tp=%u\n",
          frame, (double)px, (double)py, (double)pz, (int)grounded,
          (unsigned)health, (unsigned)score, (unsigned)gold_mined,
          (int)inventory[DIRT], (int)inventory[GRASS], yaw, pitch, (int)state,
          (unsigned)dbg_faces, (unsigned)dbg_cells, (unsigned)render_fps,
          terrain_height(ifloor(px), ifloor(pz)),
          (int)get_cell(ifloor(px), ifloor(py) - 1, ifloor(pz)),
-         (int)get_cell(ifloor(px), ifloor(py), ifloor(pz)), (unsigned)dbg_colbad);
+         (int)get_cell(ifloor(px), ifloor(py), ifloor(pz)), (unsigned)dbg_colbad, (unsigned)dbg_tp);
   fflush(stdout);
 }
 #endif
