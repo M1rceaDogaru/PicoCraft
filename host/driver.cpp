@@ -113,7 +113,7 @@ int main(int argc, char **argv) {
       if(frame == 120 || frame == 200) profile_column();
     } else if(frame % 60 == 0 || frame == 100) {
       char path[64];
-      snprintf(path, sizeof(path), "/tmp/opencode/tc/host/f%04d.ppm", frame);
+      snprintf(path, sizeof(path), "/tmp/opencode/host_frames/f%04d.ppm", frame);
       dump_ppm(path);
     }
 

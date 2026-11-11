@@ -204,6 +204,24 @@ static inline bool solid_cell(int x, int y, int z) {
   return m != AIR && m != WATER;
 }
 
+// render-window fast path: during a frame the renderer only touches a small
+// block of chunks, so we keep their pointers in a table and skip the modulo
+// math that get_cell needs (software division is very slow on the RP2040)
+static uint8_t *win_ptr[5][5];
+static int win_x0 = 0, win_z0 = 0, win_dx = -1, win_dz = -1;   // empty until a frame sets it
+
+static inline uint8_t world_at(int x, int y, int z) {
+  if(y < 0) return STONE;
+  if(y >= WY) return AIR;
+  int ccx = chunk_of(x), ccz = chunk_of(z);
+  int a = ccx - win_x0, b = ccz - win_z0;
+  if(a >= 0 && a <= win_dx && b >= 0 && b <= win_dz) {
+    uint8_t *c = win_ptr[a][b];
+    return c[((uint32_t)y * CH + (uint32_t)(z - ccz * CH)) * CH + (uint32_t)(x - ccx * CH)];
+  }
+  return get_cell(x, y, z);   // outside the window: rare, take the slow path
+}
+
 // ------------------------------------------------------------------ player --
 float px = 0.5f, py = 12.f, pz = 0.5f;   // feet position in blocks
 float velx = 0, vely = 0, velz = 0;      // velocity in blocks/second
@@ -239,8 +257,8 @@ constexpr int SH = SCREEN_HEIGHT;
 constexpr int FOCAL = (SW * 7) / 10;    // focal length in pixels
 constexpr int CXS = SW / 2, CYS = SH / 2;
 
-constexpr int RVIEW = 18;               // horizontal draw distance
-constexpr int RVUP = 9;                 // vertical draw distance
+constexpr int RVIEW = 16;               // horizontal draw distance
+constexpr int RVUP = 8;                 // vertical draw distance
 constexpr int NEAR_Q24 = 1 << 22;       // near plane (quarter block)
 
 // camera basis in Q14 and position in Q10
@@ -396,8 +414,11 @@ static void emit_face(int x, int y, int z, uint8_t dir, color_t col, int yo) {
     int32_t h = rx * wx + ry * wy + rz * wz;
     int32_t v = ux * wx + uy * wy + uz * wz;
 
-    int px_ = CXS + (int32_t)(((h >> 8) * FOCAL) / (d >> 8));
-    int py_ = CYS - (int32_t)(((v >> 8) * FOCAL) / (d >> 8));
+    // one divide per corner instead of two: inv is the focal length scaled by
+    // 2^17 over the depth, so a shift recovers screen pixels
+    int32_t inv = (FOCAL << 17) / (d >> 8);      // d>>8 >= NEAR_Q24>>8 > 0
+    int px_ = CXS + (int32_t)(((h >> 8) * inv) >> 17);
+    int py_ = CYS - (int32_t)(((v >> 8) * inv) >> 17);
     sx[k] = px_; sy[k] = py_;
 
     if(px_ < minx) minx = px_;
@@ -415,7 +436,7 @@ static void emit_face(int x, int y, int z, uint8_t dir, color_t col, int yo) {
 
 // is face `dir` of cell (x,y,z) worth drawing?
 static inline bool face_visible(int x, int y, int z, uint8_t m, uint8_t d) {
-  uint8_t nb = get_cell(x + ndx[d], y + ndy[d], z + ndz[d]);
+  uint8_t nb = world_at(x + ndx[d], y + ndy[d], z + ndz[d]);
   if(m == WATER) {
     if(nb != AIR) return false;              // water only shows against air
   } else if(nb != AIR && nb != WATER) {
@@ -444,6 +465,20 @@ static void render_world() {
   int x0 = cx - RVIEW, y0 = imax(0, cy - RVUP), z0 = cz - RVIEW;
   int x1 = cx + RVIEW, y1 = imin(WY - 1, cy + RVUP), z1 = cz + RVIEW;
 
+  // load every chunk this frame touches into the fast-path table once
+  win_x0 = chunk_of(x0); win_z0 = chunk_of(z0);
+  win_dx = chunk_of(x1) - win_x0; win_dz = chunk_of(z1) - win_z0;
+  if(win_dx > 4) win_dx = 4;
+  if(win_dz > 4) win_dz = 4;
+  for(int a = 0; a <= win_dx; a++) {
+    for(int b = 0; b <= win_dz; b++) {
+      int ccx = win_x0 + a, ccz = win_z0 + b;
+      uint32_t s = (uint32_t)slot_of(ccx, ccz);
+      if(chunk_ox[s] != ccx || chunk_oz[s] != ccz) gen_chunk(ccx, ccz);
+      win_ptr[a][b] = chunk_data[s];
+    }
+  }
+
   uint32_t rmax = (uint32_t)(RVIEW * Q) * (RVIEW * Q);
 
   for(int y = y0; y <= y1; y++) {
@@ -461,7 +496,7 @@ static void render_world() {
         uint32_t d2 = (uint32_t)(wx * wx) + wy2 + wz2;
         if(d2 > rmax) continue;
 
-        uint8_t m = get_cell(x, y, z);
+        uint8_t m = world_at(x, y, z);
         if(m == AIR) continue;
 
         int bkt = (fx * wx + fy * wy + fz * wz) >> BSHIFT;   // quarter blocks
@@ -505,7 +540,7 @@ gathered:
       int x = x0 + (int)(packed >> 11);
       int y = y0 + (int)((packed >> 6) & 31);
       int z = z0 + (int)(packed & 63);
-      uint8_t m = get_cell(x, y, z);
+      uint8_t m = world_at(x, y, z);
 
       int32_t wx = (int32_t)x * Q + Q / 2 - camx;
       int32_t wy = (int32_t)y * Q + Q / 2 - camy;

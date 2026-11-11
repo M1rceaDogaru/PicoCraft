@@ -61,9 +61,14 @@ damage and hearts.
   shown bottom-right, averaged over a window of rendered frames so it stays put
   instead of being pinned by one bad sample.
 
-Typical rendered frames gather ~2000–3000 cells and draw ~3000–4000 faces at
-120x120 (pixel doubled to the 240x240 screen). Flash usage is ~110 KB; RAM sits
-around 212 KB of the console's region, leaving room for stack and heap.
+Typical rendered frames gather ~1500–2500 cells and draw ~2500–3500 faces at
+120x120 (pixel doubled to the 240x240 screen) with `RVIEW = 16`. Two things keep
+the RP2040 busy: voxel lookups during a frame go through a small table of chunk
+pointers set up once per render (so no software `%` division per neighbour), and
+each projected corner does one divide instead of two. If you need more frames,
+lower `RVIEW`; if you have budget to spare, raise it back toward 18. Flash usage
+is ~110 KB; RAM sits around 212 KB of the console's region, leaving room for
+stack and heap.
 
 ## Layout
 
